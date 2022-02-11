@@ -16,11 +16,11 @@ const cards = [
 
 const to = (i) => ({ x: 0, y: i * -4, scale: 1, rot: 0, delay: i * 100 })
 const from = (i) => ({ x: 0, rot: 0, scale: 1.5, y: -1000 })
-const trans = (r, s) => `rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
+const trans = (r, s) => `rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
 function Deck() {
-  const [gone] = useState(() => new Set()) // The set flags all the cards that are flicked out
-  const [props, set] = useSprings(cards.length, (i) => ({ ...to(i), from: from(i) })) // Create a bunch of springs using the helpers above
+  const [gone] = useState(() => new Set())
+  const [props, set] = useSprings(cards.length, (i) => ({ ...to(i), from: from(i) }))
   
   const bind = useGesture(({ args: [index], down, delta: [xDelta], distance, direction: [xDir], velocity }) => {
     const trigger = velocity > 0.2
