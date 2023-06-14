@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gbraad/magic-deckshuffle/static/css/main.731ce8ce.chunk.css",
+    "main.js": "/gbraad/magic-deckshuffle/static/js/main.8a2dcd1f.chunk.js",
+    "main.js.map": "/gbraad/magic-deckshuffle/static/js/main.8a2dcd1f.chunk.js.map",
+    "runtime~main.js": "/gbraad/magic-deckshuffle/static/js/runtime~main.4c8d58a7.js",
+    "runtime~main.js.map": "/gbraad/magic-deckshuffle/static/js/runtime~main.4c8d58a7.js.map",
+    "static/js/2.8ad6fd9a.chunk.js": "/gbraad/magic-deckshuffle/static/js/2.8ad6fd9a.chunk.js",
+    "static/js/2.8ad6fd9a.chunk.js.map": "/gbraad/magic-deckshuffle/static/js/2.8ad6fd9a.chunk.js.map",
+    "index.html": "/gbraad/magic-deckshuffle/index.html",
+    "precache-manifest.077267e34a91c3757ed6409cd33a5e8b.js": "/gbraad/magic-deckshuffle/precache-manifest.077267e34a91c3757ed6409cd33a5e8b.js",
+    "service-worker.js": "/gbraad/magic-deckshuffle/service-worker.js",
+    "static/css/main.731ce8ce.chunk.css.map": "/gbraad/magic-deckshuffle/static/css/main.731ce8ce.chunk.css.map"
+  }
+}
