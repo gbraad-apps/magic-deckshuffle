@@ -1,23 +1,35 @@
 {
-    "name": "magic-deckshuffle",
-    "version": "1.0.0",
-    "description": "Magic deck shuffle based on work by Paul Henschel",
-    "keywords": [],
-    "homepage": "https://github.com/gbraad/magic-deckshuffle",
-    "main": "src/index.js",
-    "dependencies": {
-      "lodash-es": "4.17.11",
-      "react": "16.8.6",
-      "react-dom": "16.8.6",
-      "react-scripts": "3.0.0",
-      "react-spring": "9.0.0-beta.3",
-      "react-use-gesture": "5.0.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject"
-    }
+  "name": "magic-deckshuffle",
+  "version": "1.0.0",
+  "description": "Magic deck shuffle based on work by Paul Henschel",
+  "keywords": [],
+  "homepage": "https://github.com/gbraad/magic-deckshuffle",
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash-es": "4.17.11",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.0",
+    "react-spring": "9.0.0-beta.3",
+    "react-use-gesture": "5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+}
